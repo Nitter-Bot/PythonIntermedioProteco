@@ -32,11 +32,25 @@ def imc(kg,m):
     return indice
 
 
-
+#Funcion principal
 try:
+    #Pedimos los datos 
     x,y = datos()
-    z=imc(x,y)
+    
+    #Sacamos el imc y lo redondeamos con 2 decimales
+    z=round(imc(x,y),2)
+
+    #Imprimimos los daos
     print(f"Tu indice de maza corporal es: {z}")
+    print("Esto indica que: ")
+
+    #Determinamos una leyenda de acuerdo al IMC
+    if z<18.5:
+        print("\tEstas bajo de peso")
+    elif z>25:
+        print("\tTienes sobrepeso")
+    else:
+        print("\tEstas en el peso saludable")
     
 except:
     print("Solo ingresa numeros")
