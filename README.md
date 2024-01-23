@@ -16,7 +16,7 @@ El fin de esta practica es manejar las excepciones como lo es 'try' y 'except'
 
 Evidencia de su funcionamiento:
 
-<!--Agregar fotos del trabajo--!>
+<!--Agregar fotos del trabajo-->
 
 ### REGEX
 
