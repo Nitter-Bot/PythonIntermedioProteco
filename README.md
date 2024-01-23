@@ -8,6 +8,8 @@ con el fin de ser acredor a la contancia que da PROTECO
 
 ### REGEX
 
+### Uso de excepciones
+
 ### Beautifoul soup
 
 ### Base de datos
